@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <co:correos xmlns:co="http://www.lmsgi.net/correos"> -->
+    <co:gestor id="thunderbird"/> <thu:correo xmlns:thu="http://www.lmsgi.net/thunderbird"/>
+        <thu:mensaje/>
+        <thu:asunto/>
+        <thu:cuerpo/>
+        <thu:destinatario>
+            <destinatario1/>
+            <destinatario2/>
+        </thu:destinatario>    
+        <thu:origen/>
+        <thu:adjunto>
+            <adjunto1>
+            <adjunto2>
+            <adjunto>
+        <adjunto>   
+    <co:gestor id="outlook" xlmns:out="http://www.lmsgi.net/outlook"/>
+        <out:asunto/>
+        <out:cuerpo/>
+        <out:destinatario>
+            <destinatario1/>
+            <destinatario2/>
+        </out:destinatario>    
+        <out:origen/>
+        <out:adjunto>
+            <adjunto1>
+            <adjunto2>
+            <adjunto>
+        <out:adjunto>
+    <co:gestor id="Evolution" xmlns:evo="http://www.lmsgi.net/Evolution"/>
+        <evo:asunto/>
+        <evo:cuerpo/>
+        <evo:destinatario>
+            <destinatario1/>
+            <destinatario2/>
+        <evo:destinatario>    
+        <evo:origen/>
+        <evo:adjunto>
+            <adjunto1/>
+            <adjunto2/>
+            <adjunto/>
+        </adjunto>    
+</co:correos>    
