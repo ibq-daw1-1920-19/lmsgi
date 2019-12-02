@@ -5,9 +5,9 @@
         <director>Billy Wilder</director>
     </pelicula>
 
-    <pelicula2>
+    <pelicula>
         <titulo>Sopa de ganso</titulo>
         <director>Leo McCarey</director>
-        <autor>Leonardo</autor>
-    </pelicula2>
+    </pelicula>
+    <autor>Leonardo</autor>
 </Cine>    
