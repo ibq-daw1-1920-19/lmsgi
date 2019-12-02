@@ -7,8 +7,8 @@
     </deportista>
     
     <deportista>
-    <nombre>Mark Spitz</nombre>
-    <deporte> Natación </deporte>
-    </deportista>
+        <nombre>Mark Spitz</nombre>
+        <deporte> Natación </deporte>
+        </deportista>
 </deportistas>
 
