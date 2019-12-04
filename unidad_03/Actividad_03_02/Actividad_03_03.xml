@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lmsgi:pizza xmlns:lmsgi="http://www.lmsgi.net/pizza">
+<bar:barbacoa xmlns:bar="http://www.lmsgi.net/barbacoa">
+<haw:hawaina xmlns:haw="http://www.lmsgi.net/hawaina">
+<queso:4queso xmlns:queso="http://www.lmsgi.net/4queso">
+<mar:margarita xmlns:mar="http://www.lmsgi.net/margarita">
+    <lmsgi:pizza id="barbacoa">
+        <bar:
