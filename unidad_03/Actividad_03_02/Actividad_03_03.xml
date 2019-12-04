@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<lmsgi:pizza xmlns:lmsgi="http://www.lmsgi.net/pizza">
-<bar:barbacoa xmlns:bar="http://www.lmsgi.net/barbacoa">
-<haw:hawaina xmlns:haw="http://www.lmsgi.net/hawaina">
-<queso:4queso xmlns:queso="http://www.lmsgi.net/4queso">
-<mar:margarita xmlns:mar="http://www.lmsgi.net/margarita">
-    <lmsgi:pizza id="barbacoa">
-        <bar:
+<menu:pizzas xmlns:menu="http://www.lmsgi.net/pizzas"
+xmlns:bar="http://www.lmsgi.net/barbacoa"
+xmlns:haw="http://www.lmsgi.net/hawaina"
+xmlns:queso="http://www.lmsgi.net/4queso"
+xmlns:mar="http://www.lmsgi.net/margarita">
+  <bar:pizza nombre="Barbacoa" precio="8">
+        <bar:ingredientes>
+            <bar:ingrediente>Salsa barbaco</bar:ingrediente>
+            <bar:ingrediente>Pollo</bar:ingrediente>
+            <bar:ingrediente>Bacon</bar:ingrediente>
+            <bar:ingrediente>Jamón</bar:ingrediente>
+            <bar:ingrediente>Ternera</bar:ingrediente>
+        </bar:ingredientes>
+    </bar:pizza>
+    <haw:pizza nombre="Hawaiana" precio="7">
+        <haw:ingredientes>
+            <haw:ingrediente>Tomate</haw:ingrediente>
+            <haw:ingrediente>Mozarella</haw:ingrediente>
+            <haw:ingrediente>Jamón</haw:ingrediente>
+            <haw:ingrediente>Piña</haw:ingrediente>
+            <haw:ingrediente>Queso</haw:ingrediente>
+        </haw:ingredientes>
+    </haw:pizza>
+    <queso:pizza nombre="4 Quesos" precio="7">
+        <queso:ingredientes>
+            <queso:ingrediente>Tomate</queso:ingrediente>
+            <queso:ingrediente>Mezcla de 4 quesos</queso:ingrediente>
+        </queso:ingredientes>
+    </queso:pizza>
+    <mar:pizza nombre="Margarita" precio="6">   
+        <mar:ingredientes>
+            <mar:ingrediente>Tomate</mar:ingrediente>
+            <mar:ingrediente>Mozarella</mar:ingrediente>
+            <mar:ingrediente>Orégano</mar:ingrediente>
+        </mar:ingredientes>
+    </mar:pizza>
+</menu:pizzas>

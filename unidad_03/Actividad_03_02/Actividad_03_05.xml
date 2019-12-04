@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infoinstituto xmlns="htttp://www.lmsgi.net/informacioninstituto"
+xmlns:alum="htttp://www.lmsgi.net/alumnos">
+    <cursos>
+        <curso titulo="php">
+            <profesor>
+                <nombre>Luis</nombre>
+            </profesor>
+            <alum:alumnos>
+                <alum:nombre>Maria</alum:nombre>
+                <alum:nombre>Luisa</alum:nombre>
+                <alum:nombre>Marta</alum:nombre>                        
+            </alum:alumnos>
+        </curso>
+        <curso titulo="xml">
+            <profesor>
+                <nombre>Manu</nombre>
+            </profesor>
+            <alum:alumnos>
+                <alum:nombre>Jorgito</alum:nombre>
+                <alum:nombre>Jaimito</alum:nombre>
+                <alum:nombre>Juanito</alum:nombre>
+                                        
+            </alum:alumnos>
+        </curso>
+            
+    </cursos>
+</infoinstituto>

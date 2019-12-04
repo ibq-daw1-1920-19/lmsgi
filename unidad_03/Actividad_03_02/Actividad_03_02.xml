@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<lmsgi:correo xmlns:lmsgi="http://www.lmsgi.net/correo">
-<thu:thunderbird xmlns:thu="http://www.lmsgi.net/comidas">
-<out:outlook xmlns:out="http://www.lmsgi.net/comidas">
-<evo:evolution xmlns:evo="http://www.lmsgi.net/Evolution">
+<lmsgi:correos xmlns:lmsgi="http://www.lmsgi.net/correo"
+xmlns:thu="http://www.lmsgi.net/thunderbird"
+xmlns:out="http://www.lmsgi.net/outlook"
+xmlns:evo="http://www.lmsgi.net/evolution">
         <lmsgi:gestor id="thunderbird">
-            <thu:mensaje/>
-            <thu:asunto/>
-            <thu:cuerpo/>
-            <thu:destinatario>
-            <destinatario1/>
-            <destinatario2/>
-            </thu:destinatario>
-            <thu:origen/>
-            <thu:adjunto/>
-            <adjunto1/>
-            <adjunto2/>
+            <thu:mensaje>
+                <thu:destinatario>Hugo</thu:destinatario>
+                <thu:origen>Steven</thu:origen>
+                <thu:asunto>LMSGI</thu:asunto>
+                <thu:cuerpo>Entrega activiadad 3.2</thu:cuerpo>
+                <evo:adjunto>actividdad_03_02.xml</evo:adjunto>  
+            </thu:mensaje>    
         </lmsgi:gestor>
         <lmsgi:gestor id="outlook">
-            <out:asunto/>
-            <out:cuerpo/>
-            <out:destinatario>
-                <destinatario1/>
-                <destinatario2/>
-            </out:destinatario>
-            <out:origen/>
-            <out:adjunto>
-                <adjunto1/>
-                <adjunto2/>
-                <adjunto/>
-            </out:adjunto>
+            <out:mensaje>
+                <out:destinatario>Hugo</out:destinatario>
+                <out:origen>Steven</out:origen>
+                <out:asunto>LMSGI</out:asunto>
+                <out:cuerpo>Entrega activiadad 3.3</out:cuerpo>
+                <out:adjunto>actividdad_03_03.xml</out:adjunto> 
+            </out:mensaje>
         </lmsgi:gestor>
         <lmsgi:gestor id="evolution">
-            <evo:asunto/>
-            <evo:cuerpo/>
-            <evo:destinatario>
-                <destinatario1/>
-                <destinatario2/>
-            </evo:destinatario>
-            <evo:origen/>
-            <evo:adjunto/>
-                <adjunto1/>
-                <adjunto2/>
-                <adjunto/>
-        </lmsgi:gestor>
-    </evo:evolution>
-    </out:outlook>
-    </thu:thunderbird>    
-</lmsgi:correo>
+            <evo:mensaje>
+                <evo:destinatario>Hugo</evo:destinatario>    
+                <evo:origen>Steven</evo:origen>
+                <evo:asunto>LMSGI</evo:asunto>
+                <evo:cuerpo>Entrega activiadad 3.4</evo:cuerpo>
+                <evo:adjunto>actividdad_03_04.xml</evo:adjunto>
+            </evo:mensaje>    
+        </lmsgi:gestor>  
+</lmsgi:correos>
