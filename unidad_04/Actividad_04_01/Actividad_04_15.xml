@@ -1,0 +1,18 @@
+<!DOCTYPE paises [
+<!ELEMENT paises (pais*)>
+<!ELEMENT pais (nombre, unionEuropea?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT unionEuropea EMPTY>
+]>
+<paises>
+    <pais>
+        <nombre>España</nombre>
+        <unionEuropea/>
+    </pais>
+    <pais>
+        <nombre>Noruega</nombre>
+    </pais>
+    <pais>
+        <nombre>Austria</nombre>
+    </pais>
+</paises>
