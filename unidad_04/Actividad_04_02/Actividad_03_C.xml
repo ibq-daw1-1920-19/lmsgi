@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resultados [
+<!ELEMENT resultados (resultado*)>
+    <!ELEMENT resultado EMPTY>
+        <!ATTLIST resultado eqlocal NMTOKENS #REQUIRED>
+        <!ATTLIST resultado eqvisitante NMTOKENS #REQUIRED>
+        <!ATTLIST resultado goles_eqlocal CDATA #REQUIRED>
+        <!ATTLIST resultado goles_eqvisitante CDATA #REQUIRED>
+]>
+
+<resultados>
+    <resultado eqlocal="Nottingham Presa" goles_eqlocal="0"
+    eqvisitante="Inter de Mitente" goles_eqvisitante="1" />
+    <resultado eqlocal="Vodka Juniors" goles_eqlocal="3"
+    eqvisitante="Sparta da Risa" goles_eqvisitante="3" />
+    <resultado eqlocal="Water de Munich" goles_eqlocal="4"
+    eqvisitante="Esteaua es del grifo" goles_eqvisitante="2" />
+</resultados>
