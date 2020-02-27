@@ -1,0 +1,24 @@
+body {
+    color:red;
+    background-color: #a3a0a0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+ul { 
+    width: 200px;
+    background-color: rgb(107, 0, 107);
+    }
+h1 {
+    color: whitesmoke;
+    word-spacing: 15px;
+    font-family: cursive;
+    }
+p {
+   text-align: center;
+   width: 250px;
+   background-color: #657508ce;
+    } 
+h3 {
+    font-style: italic;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}           
