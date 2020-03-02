@@ -1,31 +1,23 @@
 body {
     color:red;
     background-color: #a3a0a0;
-    margin-left: 100px;
     }
 ul { 
     width: 250px;
     background-color: rgb(107, 0, 107);
     }
 h1 {
+    color: white;
     word-spacing: 10px;
     font-family: 'Comic Sans MS', cursive;
-    border: 5px solid red;
-    width: 1000px;
-    padding: 5px;
-    margin-right: 10px;
     }
 p {
    text-align: center;
    width: 250px;
    background-color: olive;
-   border: 10px solid blue;
     } 
 h3 {
     font-style: italic;
     text-transform:uppercase;
     font-family: 'Comic Sans MS', cursive;
-    text-align: right;
-    margin-right: 200px;
-}           
-
+}

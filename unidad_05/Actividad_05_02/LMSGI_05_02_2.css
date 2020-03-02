@@ -4,15 +4,14 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: unset;
     }
-ul { 
+ul {
     width: 200px;
     background-color: rgb(107, 0, 107);
-    }    
-
-li { 
+    }
+li {
     border: 1px rgba(245, 245, 245, 0.89) solid;
     padding: 0px;
-}   
+}
 h1 {
     color: whitesmoke;
     word-spacing: 15px;
@@ -36,4 +35,4 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 25%;
     text-align: right;
-}           
+}

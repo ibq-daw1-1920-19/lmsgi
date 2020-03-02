@@ -2,17 +2,14 @@
     width: 400px;
     border: 3px solid #a3a0a0;
 }
-
 #menu a {
     padding-left: 25px;    
     padding-right: 25px;
-
 }
 
 #menu a:hover{
     background-color: rgb(45, 218, 22);
 }
-
 #menu a:visited{
     color: whitesmoke;
 }
