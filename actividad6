@@ -1,0 +1,17 @@
+1.	Nombre del Instituto (Miies)
+	//ies/nombre
+2.	Página web del Instituto (http://www.Miies.org)
+	//ies/web
+3.	Nombre de los Ciclos Formativos (Administración de Sistemas Informáticos en Red, Desarrollo de Aplicaciones Web, Sistemas Microinformáticos y Redes)
+//ies/ciclos/nombre
+4.	Siglas por las que se conocen los Ciclos Formativos (ASIR, DAW, SMR)
+	//cliclos/@id
+5.	Años en los que se publicaron los decretos de título de los Ciclos Formativos (2009, 2010, 2008).
+	
+6.	Ciclos Formativos de Grado Medio (<ciclo id="SMR"> <nombre>Sistemas Microinformáticos y Redes</nombre> <grado>Medio</grado> <decretoTitulo año="2008" /> </ciclo>). Se trata de obtener el elemento <ciclo> completo)
+
+7.	Nombre de los Ciclos Formativos de Grado Superior (Administración de Sistemas Informáticos en Red, Desarrollo de Aplicaciones Web)
+
+8.	Nombre de los Ciclos Formativos anteriores a 2010 (Administración de Sistemas Informáticos en Red, Sistemas Microinformáticos y Redes)
+
+9.	Nombre de los Ciclos Formativos de 2008 o 2010 (Desarrollo de Aplicaciones Web, Sistemas Microinformáticos y Redes)
